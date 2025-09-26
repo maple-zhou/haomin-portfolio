@@ -577,6 +577,17 @@ section {
     font-size: 1.1rem;
 }
 
+.contact-method a {
+    color: var(--text-secondary);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-method a:hover {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
 .contact-form {
     background: white;
     padding: 2rem;
